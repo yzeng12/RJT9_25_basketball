@@ -1,5 +1,9 @@
 package main;
 
+/**
+ * @author yzeng
+ *
+ */
 public class Referee {
 	int stage[]=new int[4];
 	float time=0.0f;

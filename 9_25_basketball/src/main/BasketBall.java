@@ -1,5 +1,9 @@
 package main;
 
+/**
+ * @author yzeng
+ *
+ */
 public class BasketBall {
 	static int x,y,z=0;
 	public int getx() {

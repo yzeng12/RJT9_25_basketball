@@ -1,5 +1,9 @@
 package main;
 
+/**
+ * @author yzeng
+ *
+ */
 public class Coach {
 	String name;
 	static int sid=0;

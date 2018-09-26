@@ -1,5 +1,9 @@
 package main;
 
+/**
+ * @author yzeng
+ *
+ */
 public class Player {
 	String name;
 	static int sid=0;
