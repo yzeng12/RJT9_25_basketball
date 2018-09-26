@@ -9,6 +9,12 @@ public class Coach {
 	static int sid=0;
 	int id=0;
 	
+	public Coach(String name, int id) {
+		super();
+		this.name = name;
+		this.id = id;
+	}
+
 	public void changePlayer(int teamid,int playerA,int playerb) {
 		
 	}

@@ -10,6 +10,13 @@ public class Referee {
 	int pointA=0;
 	int pointB=0;
 	
+	public Referee(int[] stage, float time, int pointA, int pointB) {
+		super();
+		this.stage = stage;
+		this.time = time;
+		this.pointA = pointA;
+		this.pointB = pointB;
+	}
 	public void violation(int playerID,int Teamid) {
 		
 	}

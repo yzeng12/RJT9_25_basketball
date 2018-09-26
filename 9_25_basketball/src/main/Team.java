@@ -10,6 +10,14 @@ public class Team {
 	int id=0;
 	int coach[]=new int[2];
 	
+	public Team(int[] player, int id, int[] coach) {
+		super();
+		this.player = player;
+		this.id = id;
+		this.coach = coach;
+	}
+	
+	
 	public void defendpenalty(int teamid,int playerid) {
 		
 	}

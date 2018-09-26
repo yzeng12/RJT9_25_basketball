@@ -6,6 +6,8 @@ package main;
  */
 public class BasketBall {
 	static int x,y,z=0;
+	
+	
 	public int getx() {
 		return x;
 	}

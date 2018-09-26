@@ -10,6 +10,15 @@ public class Player {
 	int id=0;
 	int violation=0;
 	int number;
+	
+	
+	public Player(String name, int id, int violation, int number) {
+		super();
+		this.name = name;
+		this.id = id;
+		this.violation = violation;
+		this.number = number;
+	}
 	public void bat() {}
 	public void passball(int teamid, int playerid){}
 	public String getName() {
