@@ -18,13 +18,29 @@ public class Referee {
 	public void changePlayer(int teamid,int playerA,int playerb) {
 		
 	}
-	public float gettime() {
+	public int[] getStage() {
+		return stage;
+	}
+	public void setStage(int[] stage) {
+		this.stage = stage;
+	}
+	public float getTime() {
 		return time;
 	}
-	public int getpointa() {
+	public void setTime(float time) {
+		this.time = time;
+	}
+	public int getPointA() {
 		return pointA;
 	}
-	public int getpointb() {
+	public void setPointA(int pointA) {
+		this.pointA = pointA;
+	}
+	public int getPointB() {
 		return pointB;
 	}
+	public void setPointB(int pointB) {
+		this.pointB = pointB;
+	}
+	
 }
