@@ -2,7 +2,7 @@ package main;
 
 public class Coach {
 	String name;
-	static int sid;
+	static int sid=0;
 	int id=0;
 	public int getid() {
 		return id;
